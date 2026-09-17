@@ -1,0 +1,1 @@
+Sample_ID,Plant_ID,Kiln_ID,Production_DateTime,Sampling_DateTime,Raw_Mix_ID,Kiln_Run_ID,CaO_wt_pct,SiO2_wt_pct,Al2O3_wt_pct,Fe2O3_wt_pct,MgO_wt_pct,SO3_wt_pct,Na2O_wt_pct,K2O_wt_pct,LOI_wt_pct,Free_CaO_pct,C3S_pct,C2S_pct,C3A_pct,C4AF_pct,Phase_Method,Oxide_Method,Free_CaO_Method,Lab_ID,Instrument_ID,Measurement_DateTime,Replicate_ID,Units,Basis

@@ -1,0 +1,3 @@
+Source_ID,Source_Type,Author,Title,DOI_URL,Table_Figure_Page,Measurement_Method,Units,Notes,added_date
+# Template for Sources. Every measured value in the database must reference a Source_ID from this sheet.
+# Fill Source_Type with one of: journal, report, dataset, standard, supplier, other

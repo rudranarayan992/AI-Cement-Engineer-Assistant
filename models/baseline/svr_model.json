@@ -1,0 +1,37 @@
+{
+  "model_name": "svr",
+  "dataset_name": "Concrete_Data.xls",
+  "target": "compressive_strength",
+  "feature_names": [
+    "cement",
+    "slag",
+    "fly_ash",
+    "water",
+    "superplasticizer",
+    "coarse_aggregate",
+    "fine_aggregate",
+    "age"
+  ],
+  "training_samples": 804,
+  "test_samples": 201,
+  "random_seed": 42,
+  "preprocessing_method": "median imputer + StandardScaler for Ridge/SVR; median imputer only for RF",
+  "cross_validation_method": "5-fold KFold(shuffle=True, random_state=42)",
+  "metrics": {
+    "cv_mae_mean": 6.095206611850953,
+    "cv_mae_std": 0.24766140895508348,
+    "cv_rmse_mean": 8.193271834461234,
+    "cv_rmse_std": 0.3723579922927063,
+    "cv_r2_mean": 0.7363858572205917,
+    "cv_r2_std": 0.003413835149127298,
+    "test_mae": 5.452160496286017,
+    "test_rmse": 7.692283277876737,
+    "test_r2": 0.8016572682512662
+  },
+  "training_timestamp": "2026-09-15T11:33:08.057012+00:00",
+  "python_version": "3.14.0",
+  "sklearn_version": "1.9.0",
+  "pandas_version": "3.0.5",
+  "joblib_version": "1.5.3",
+  "xgboost_version": "3.4.1"
+}
